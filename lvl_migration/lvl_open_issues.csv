@@ -1,0 +1,113 @@
+Number,,Labels,Title,Date,URL
+2672,Validation Layers,bug,VK_EXT_debug_utils implementation has threading bug(s),2018-05-11,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2672
+2670,Validation Layers,bug,Validation layers print errors when creating a device using supported device features from extensions,2018-05-11,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2670
+2669,Validation Layers,,Using the new subgroup extensions in Vulkan 1.1 causes validation error,2018-05-11,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2669
+2667,Validation Layers,,CMake errors building LVL,2018-05-10,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2667
+2665,Validation Layers,enhancement,Validate non-attachment uses of attachment image memory,2018-05-10,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2665
+2661,Validation Layers,bug,Validation Layer warning for geometry shaders with the VK_NV_geometry_shader_passthrough extension enabled,2018-05-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2661
+2660,Validation Layers,incomplete,"Releasing a fence, whose payload has been exported to an external handle using reference transference and later imported to >=1 fences, does not trigger any warning",2018-05-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2660
+2658,Validation Layers,bug,VK_IMAGE_CREATE_EXTENDED_USAGE_BIT not referenced in VU checks,2018-05-08,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2658
+2657,Validation Layers,"enhancement, tests",Script to summarize CI test results across all device profiles,2018-05-08,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2657
+2654,Validation Layers,enhancement,VK_EXT_debug_utils - missing object names in cases where they could be added,2018-05-08,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2654
+2653,Validation Layers,bug,Incorrect image layer validation with secondary command buffers,2018-05-08,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2653
+2648,Validation Layers,incomplete,Add validation support for VK_ANDROID_external_memory_android_hardware_buffer,2018-05-04,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2648
+2646,Validation Layers,incomplete,Code-Gen all implicit VUs,2018-05-04,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2646
+2645,Validation Layers,bug,Fix unexpected error in CreatePipelineCheckShaderCapabilityExtension2of2,2018-05-04,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2645
+2641,Validation Layers,enhancement,Providing stack trace in messages when validation is delayed,2018-05-04,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2641
+2639,Validation Layers,bug,SetDesiredFailureMsg() doesn't handle the same message added twice,2018-05-04,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2639
+2638,Validation Layers,incomplete,Add missing subpass structure checks,2018-05-04,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2638
+2632,Validation Layers,bug,vkDestroyFence validation fails after vkDeviceWaitIdle call if no vkWaitForFences is called,2018-05-03,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2632
+2631,Validation Layers,,Remove all mentions of 'global descriptor indices' from error messages,2018-05-02,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2631
+2624,Validation Layers,incomplete,"No warning before a crash if pipeline layout has _no_ descriptor sets, but the shader declares uniform inputs",2018-04-30,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2624
+2623,Validation Layers,bug,Error updating external sources if VS 2017 can't be located,2018-04-29,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2623
+2621,Validation Layers,incomplete,No error reported for a buffer->image copy op which exceeds target mip's extents,2018-04-27,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2621
+2598,Validation Layers,"enhancement, incomplete",Including useful information in various messages,2018-04-20,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2598
+2591,Validation Layers,incomplete,VL not reporting when a VkSubpassDependency is needed in a downsampling pass,2018-04-18,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2591
+2590,Validation Layers,incomplete,Duplicate image memory barriers are not reported.,2018-04-18,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2590
+2578,Loader,enhancement,loader: Pass the device dispatch table handle to the ICD before CreateDevice,2018-04-14,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2578
+2545,Validation Layers,incomplete,Refactor Core Validation for Pre/Post validation and state recording,2018-04-03,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2545
+2534,Validation Layers,incomplete,Check that VkBufferViewCreateInfo::offset is a multiple of VkPhysicalDeviceLimits::minTexelBufferOffsetAlignment in vkCreateBufferView and report if it's wrong.,2018-03-29,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2534
+2533,Validation Layers,Don't Migrate,Closing this Repository To Write Access [was: Splitting this Repository],2018-03-29,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2533
+2532,Validation Layers,incomplete,1.1 subgroup validation?,2018-03-29,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2532
+2526,Validation Layers,,Fix NonWritable check when vertexPipelineStoresAndAtomics not enabled,2018-03-28,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2526
+2525,Validation Layers,incomplete,Validate synchronization correctness,2018-03-28,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2525
+2507,Validation Layers,incomplete,Validation: using 3d image view as render target does not trigger an error,2018-03-22,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2507
+2506,Validation Layers,,Image layout tracking for depth+stencil images at vkCmdEndRenderPass,2018-03-22,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2506
+2502,Validation Layers,incomplete,vkAcquireNextImage2KHR causes false error messages in further submit and present calls,2018-03-21,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2502
+2498,Validation Layers,incomplete,GLSL-level texel buffer binding's integerness is not verified against attached buffer view's format,2018-03-19,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2498
+2474,Validation Layers,enhancement,Refactor code reuse between 1.1 core and KHR entry points,2018-03-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2474
+2436,Validation Layers,enhancement,Validation should warn if users enable extensions/layers without enumerating support,2018-02-25,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2436
+2428,Validation Layers,enhancement,Cryptic error at BeginRenderPass time,2018-02-22,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2428
+2419,Validation Layers,incomplete,Validation layers don't check SPIR-V version in vkCreateShaderModule,2018-02-19,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2419
+2397,Validation Layers,enhancement,Failure to build with musl libc,2018-02-05,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2397
+2383,Validation Layers,incomplete,Core validation: No checks for min image transfer granularity adherence,2018-01-31,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2383
+2374,Validation Layers,enhancement,icd: Add support for vkGetPhysicalDeviceFeatures2KHR pNext extension queries,2018-01-26,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2374
+2344,Validation Layers,VUID,Validate correct topology based on GS feature,2018-01-16,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2344
+2335,Loader,question,Executable Inside UninstallVulkanRT.exe flagged as Razy Trojan,2018-01-10,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2335
+2333,Validation Layers,incomplete,Usage flags requirement not enforced for indirect buffers,2018-01-10,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2333
+2332,Validation Layers,enhancement,"Debug Report Callbacks apears to get created 4 times from a single ""vkCreateDebugReportCallbackEXT"" call.",2018-01-10,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2332
+2330,Loader,bug,PFN_GetPhysicalDeviceProcAddr has C++ interface.,2018-01-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2330
+2277,Validation Layers,VUID,Validate sparse bindings at submit time,2017-12-14,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2277
+2223,Loader,enhancement,windowsRuntimeInstaller Uninstaller succeds (retcode == 0) when ConfigureRT fails,2017-11-21,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2223
+2207,Validation Layers,enhancement,Enabled validation layers should give a performance warning,2017-11-15,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2207
+2204,Validation Layers,incomplete,Enhancement: vkCmdBindDescriptorSets : validate if pipelineBindPoint matches layout targets,2017-11-13,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2204
+2190,Loader,bug,Loader calls vk_icdGetInstanceProcAddr for vkCreateSwapchainKHR,2017-11-07,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2190
+2186,Loader,bug,Assertion failure when only some ICDs have VK_KHR_surface support,2017-11-06,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2186
+2178,Validation Layers,incomplete,Could validate stageFlags for INPUT_ATTACHMENT?,2017-11-03,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2178
+2171,Validation Layers,VUID,"Scrub implementation of primary/secondary rules wrt renderpass edges, inheritance, etc",2017-11-01,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2171
+2135,Validation Layers,enhancement,Core validation: Misleading error reported if no pipeline is bound and app tries to change a dynamic state,2017-10-16,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2135
+2130,Validation Layers,VUID,Handle mask validation for multiple subpass self-dependencies,2017-10-12,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2130
+2126,Validation Layers,VUID,Add check for memory object backing bufferView & Image descriptor updates,2017-10-11,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2126
+2100,Validation Layers,enhancement,Performance is extremely poor with validation layers,2017-10-03,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2100
+2094,Validation Layers,"VUID, enhancement",Clean up descriptor copy update validation,2017-09-29,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2094
+2093,Validation Layers,enhancement,"""simultaneously used "" validation does not have enough information.",2017-09-28,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2093
+2088,Validation Layers,incomplete,"PRTs + input attachments: Verify FB attachments accessed by input attachments are fully backed by physical memory, as far as renderpass' render area is considered.",2017-09-25,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2088
+2078,Loader,"bug, loader",Loader test CreateInstanceDeviceIntentionalAllocFail fails on AMD,2017-09-19,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2078
+2071,Validation Layers,enhancement,Overzealous warning on vkGetPhysicalDeviceSurfacePresentModesKHR,2017-09-17,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2071
+2064,Loader,"enhancement, loader",vkEnumerateInstanceExtensionProperties cannot be called from CreateInstance in a layer,2017-09-08,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2064
+2053,Validation Layers,incomplete,Validation layer doesn't catch missing transition for vkCmdCopyQueryPoolResults,2017-09-06,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2053
+2048,Validation Layers,incomplete,Image in Shader Read Only Optimal layout could be used in a general layout through a Descriptor Set,2017-09-03,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2048
+2045,Validation Layers,VUID,Core Validation: CmdPushDescriptorSetWithTemplateKHR not tracked properly,2017-09-01,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2045
+2038,Validation Layers,incomplete,Core Validation: No error reported for a missing subpass->external dependency,2017-08-29,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2038
+2022,Validation Layers,enhancement,Note disturbed descriptors when unbound set used,2017-08-22,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2022
+2015,Validation Layers,incomplete,Missing error when inserting a queue family ownership acquisition operation without preceding release,2017-08-20,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2015
+2014,Validation Layers,incomplete,Layers do not report missing memory transition for getting query pool results,2017-08-20,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/2014
+1973,Validation Layers,incomplete,Core validation: Value assigned to the location decoration is not checked against (physical device::maxVertexOutputComponents / 4),2017-07-27,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1973
+1971,Validation Layers,"bug, enhancement",VU checks for vkGetQueryPoolResults() in CV are incorrect (and slow),2017-07-26,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1971
+1947,Validation Layers,VUID,Support KHR_storage_buffer_storage_class in SC,2017-07-18,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1947
+1880,Validation Layers,enhancement,Add a way to name objects for validation messages,2017-06-16,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1880
+1871,Validation Layers,VUID,SC: correctly assign locations in complex cases,2017-06-13,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1871
+1860,Validation Layers,enhancement,request: more detailed error messages for image layout validation,2017-06-12,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1860
+1817,Validation Layers,enhancement,Tests: make spirv assembler available,2017-05-25,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1817
+1793,Validation Layers,bug,Setting VK_ICD_FILENAMES causes environment variable path test failure,2017-05-19,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1793
+1788,Validation Layers,enhancement,Housekeeping: Fold CV DRAW_DATA tracking into CB bound objects mechanism,2017-05-19,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1788
+1754,Validation Layers,enhancement,Housekeeping: split up layer_validation_tests.cpp,2017-05-10,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1754
+1724,Validation Layers,enhancement,core_validation layer gives obscure layer names,2017-05-01,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1724
+1697,Validation Layers,enhancement,Commit source for vulkan_wrapper generator,2017-04-25,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1697
+1656,Validation Layers,incomplete,vkCmdResolveImage doesn't validate layouts,2017-04-05,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1656
+1612,Validation Layers,enhancement,Best Practices/Assistant/Performance Layer,2017-03-22,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1612
+1601,Validation Layers,bug,Render pass area is not inherited to secondary command buffers,2017-03-20,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1601
+1580,Validation Layers,VUID,Specialization Constant as array size causes validation error,2017-03-14,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1580
+1551,Validation Layers,tests,Build and test failures with latest Android toolchain,2017-03-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1551
+1549,Validation Layers,bug,Descriptor type validation doesn't handle OpGroupDecorate,2017-03-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1549
+1544,Validation Layers,enhancement,Allow building with MinGW-w64,2017-03-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1544
+1534,Validation Layers,enhancement,Refactor MapMemory,2017-03-06,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1534
+1510,Validation Layers,bug,Core_validation mishandles attachments that are not touched by any subpass,2017-02-28,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1510
+1404,Validation Layers,enhancement,Improve error messages for descriptor mis-matches,2017-01-24,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1404
+1307,Loader,"enhancement, loader",_alloca used in a loop - can lead to stack exhaustion,2016-12-23,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1307
+1285,Validation Layers,VUID,Scrub semaphore validation,2016-12-19,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1285
+1259,Validation Layers,bug,Layers: Resource binding and aliasing checks may be too strict,2016-12-13,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1259
+1250,Validation Layers,bug,"Smoketest with validation spews errors on resize (NVIDIA, Linux)",2016-12-09,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1250
+1225,Validation Layers,bug,WSI Swapchain interframe dependency tracking,2016-12-02,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1225
+1172,Validation Layers,enhancement,Check smoketest buffer/memory binding behavior,2016-11-17,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1172
+1080,Validation Layers,bug,Using the same attachment as a color & input attachment for a subpass triggers questionable warnings,2016-10-21,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1080
+1006,Validation Layers,incomplete,Error if trying to use an access mask with pipeline stages that can't perform it,2016-10-03,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/1006
+974,Validation Layers,enhancement,Layers: (SC) check PointSize valid usage,2016-09-23,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/974
+973,Validation Layers,incomplete,No debug call-back reported if two renderpasses which rasterize to the same attachment are not synchronized,2016-09-23,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/973
+892,Validation Layers,incomplete,validation should check whether a vkCmdPipelineBarrier is called between vkCmdUpdateBuffer and vkCmdDrawIndirect,2016-08-26,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/892
+880,Validation Layers,"VUID, enhancement",Improve descriptor validation,2016-08-24,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/880
+829,Validation Layers,enhancement,GetQueryPoolResults in core validation is slow,2016-08-05,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/829
+731,Validation Layers,bug,Validation: shader checker doesn't understand component qualifiers on FS output,2016-07-06,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/731
+723,Validation Layers,incomplete,Need stagemask validation for subpass' self dependency.,2016-07-02,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/723
+499,"Validation Layers, Tools",enhancement,Clearly label C vs C++ headers,2016-05-06,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/499
+412,Tools,incomplete,Need validation test to catch cube.c's invalid use of swapchain images,2016-04-25,https://github.com/KhronosGroup/Vulkan-LoaderAndValidationLayers/issues/412
